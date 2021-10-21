@@ -2,7 +2,6 @@
   <div>
     <!-- 背景图 -->
     <img id="beijing1" src="../assets/beijing1.png" />
-
     <!-- 功能 -->
     <div class="feature">
       <!-- 头像 -->
@@ -157,14 +156,8 @@ export default {
 }
 /* 创作内容 */
 .createContent {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
   margin-top: 30px;
   margin-left: 50px;
-  border: rgb(105, 105, 105) 1px solid;
-  width: 750px;
-  height: auto;
 }
 
 /* 内容 */
@@ -175,10 +168,10 @@ export default {
 }
 /* 推荐区 */
 .recommend {
-  border: rgb(139, 139, 139) 1px solid;
+  /* border: rgb(139, 139, 139) 1px solid; */
   margin-top: 30px;
   margin-left: 50px;
-  width: 250px;
-  height: 290px;
+  /* width: 250px;
+  height: 290px; */
 }
 </style>

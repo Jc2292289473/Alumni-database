@@ -17,7 +17,6 @@
       <div class="btn">
         <el-button type="primary" icon="el-icon-search">搜索</el-button>
       </div>
-      
     </div>
   </div>
 </template>
@@ -67,8 +66,8 @@ export default {
   height: 60px;
 }
 .headPortrait img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 /* 搜索俺就 */
 .btn {

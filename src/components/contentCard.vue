@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="createContents ">
     <el-card class="box-card">
       <div v-for="o in 4" :key="o" class="text item">
         {{ "列表内容 " + o }}
@@ -18,6 +18,15 @@ export default {
 </script>
 
 <style scoped>
+
+.createContents {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: rgb(105, 105, 105) 1px solid;
+  width: 750px;
+  height: auto;
+}
 /* 内容卡片 */
 .box-card {
   margin-bottom: 30px;
