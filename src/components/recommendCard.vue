@@ -29,7 +29,6 @@ export default {
 <style scoped>
 /* 推荐 */
 .recommends {
-  border: rgb(139, 139, 139) 1px solid;
   width: 250px;
   height: 280px;
 }
